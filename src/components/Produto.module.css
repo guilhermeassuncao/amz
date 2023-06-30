@@ -1,0 +1,29 @@
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.product img {
+    margin-bottom: 2rem;
+}
+
+.product span {
+    padding: 0.5rem;
+    background: #91fb5d;
+    color: #017e01;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0.125rem;
+}
+
+.product p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 767px) {
+    .product {
+        grid-template-columns: 1fr;
+    }
+}

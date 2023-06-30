@@ -1,0 +1,15 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.products h1 {
+    margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 767px) {
+    .products {
+        grid-template-columns: 1fr;
+    }
+}

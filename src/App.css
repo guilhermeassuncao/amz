@@ -1,0 +1,59 @@
+body {
+    margin: 2rem;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    margin: 0 auto;
+    min-height: calc(100vh + 10rem);
+}
+
+.content {
+    flex: 1;
+}
+
+.anime-left {
+    transform: translateX(-1.25rem);
+    opacity: 0;
+    animation: anime-left 0.3s forwards;
+}
+
+.loading {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    border: 0.625rem solid #ccc;
+    border-right-color: transparent;
+    animation: loading 1s infinite;
+}
+
+
+@keyframes anime-left {
+    to {
+        transform: initial;
+        opacity: initial;
+    }
+}
+
+
+@keyframes loading {
+    to {
+        transform: rotate(360deg);
+    }
+}
