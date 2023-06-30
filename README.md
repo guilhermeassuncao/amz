@@ -10,7 +10,7 @@
 
 ## :bookmark_tabs: Sobre
 
-Mini Projeto desenvolvido no curso React
+Mini Projeto desenvolvido no curso React Completo
 
 Intituição - Origamid
 
