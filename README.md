@@ -10,7 +10,7 @@
 
 ## :bookmark_tabs: Sobre
 
-Mini Projeto desenvolvido no curso Vue.js
+Mini Projeto desenvolvido no curso React
 
 Intituição - Origamid
 
@@ -23,8 +23,8 @@ Professor - André Rafael
 - HTML5
 - CSS3
 - JavaScript
-- Vue.js
-- Vue Router
+- React
+- React Router
 
 
 <br>
