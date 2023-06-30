@@ -18,8 +18,10 @@ function Produtos() {
 
     return (
         <section className={`${styles.products} anime-left`}>
-            <Head title="Amz | Produtos" description="Todos os produtos da Amz"></Head>
-
+            <Head
+                title="Amz | Aprendizado sobre React e React Router"
+                description="Aprendizado sobre React e React Router"
+            ></Head>
 
             {produtos.map((produto) => (
                 <Link to={`produto/${produto.id}`} key={produto.id}>
